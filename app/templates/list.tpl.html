@@ -1,0 +1,16 @@
+<h3>My Whiskeys</h3>
+
+<ul>
+  <li ng-repeat="whiskey in whiskeys">
+    <a href="#/single/{{ whiskey.objectId }}">{{ whiskey.name }} from {{ whiskey. maker }}</a>
+  </li>
+</ul>
+
+
+
+
+<!-- <script type="text/javascript">
+  whiskeys.forEach( function (whiskey) {
+    console.log(whiskey.maker);
+  })
+</script> -->
